@@ -1,0 +1,62 @@
+.navbar-default .navbar-brand {
+    color: white;
+    background-color: pink;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.page-header{
+    color: #0D98BA;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu { 
+    display: block; 
+}
+
+.box{
+  background-color: whitesmoke;
+}
+.box.col-sm-4{
+  background-color: whitesmoke;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .col-sm-3 {
+    flex: 50%;
+    padding: 0 4px;
+    background-color: whitesmoke;
+  }
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: whitesmoke;
+}
+
+table.td {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 0px;
+  width: 50px;
+}
+
+@media (max-width: 480px) {
+  [class*="col-"] {
+    width: 100%;
+}
+.col-sm-3{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+}
