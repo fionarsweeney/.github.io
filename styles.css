@@ -13,24 +13,29 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block; 
 }
 
-.box{
-  background-color: whitesmoke;
 }
-.box.col-sm-4{
+.row.col-sm-4{
   background-color: whitesmoke;
+  padding: 25px
+  ;
+}
+
+.container{
+  align-content: center
 }
 
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 1px;
+    background-color: whitesmoke
   }
   
   /* Create two equal columns that sits next to each other */
   .col-sm-3 {
     flex: 50%;
-    padding: 0 4px;
+    padding: 10px;
     background-color: whitesmoke;
   }
 
@@ -45,7 +50,7 @@ img {
 table.td {
   margin-left: 75px;
   margin-right: 75px;
-  padding: 0px;
+  padding: 15px;
   width: 50px;
 }
 
@@ -59,4 +64,31 @@ table.td {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+  .navbar li {
+    padding: 10px;
+  }
+  .box {
+    margin-right: 22px;
+    margin-left: 22px;
+  }
+  .navbar ul {
+    visibility: hidden;
+  }
+  #nav-select {
+    visibility: visible;
+  }
 }
+
+
+
+
+
+
+
+
+    
+
+
+
+/* .navbar-default .navbar-brand  */
